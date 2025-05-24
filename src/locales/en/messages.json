@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "Unitool Chat",
+    "description": "Chat application with localization and authentication support"
+  },
+  "home": {
+    "title": "Welcome to Unitool Chat",
+    "description": "Chat application with localization and authentication support. Register or login to start chatting.",
+    "login": "Login",
+    "register": "Register"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backToHome": "Back to home"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "loginSuccess": "You have successfully logged in",
+    "registerSuccess": "Registration completed successfully",
+    "logoutSuccess": "You have successfully logged out",
+    "errors": {
+      "required": "This field is required",
+      "emailFormat": "Invalid email format",
+      "passwordLength": "Password must be at least 6 characters long",
+      "passwordMatch": "Passwords do not match"
+    },
+    "submitRegister": "Create account",
+    "submitLogin": "Sign in"
+  },
+  "profile": {
+    "title": "Profile",
+    "bio": "About me",
+    "joinedAt": "Registration date",
+    "edit": "Edit",
+    "emailLabel": "Email",
+    "loading": "Loading profile...",
+    "error": "Failed to load profile",
+    "retry": "Retry",
+    "noProfileData": "No profile data available",
+    "profileInfo": "Profile Information",
+    "registrationDate": "Registration Date",
+    "subscriptions": "Subscriptions",
+    "subscription": {
+      "free": "Free",
+      "premium": "Premium",
+      "pro": "Professional"
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "chat_title": "AI Assistant",
+    "chat_page_title": "Chat",
+    "chat_page_description": "Chat with our AI assistant. Ask questions, get help, or just chat.",
+    "send": "Send",
+    "sending": "Sending...",
+    "message": "Message",
+    "type_message": "Type your message here...",
+    "message_required": "Message cannot be empty",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connection_error": "Connection error",
+    "error": "Connection error",
+    "start_conversation": "Start a conversation by typing a message below",
+    "ai_is_typing": "AI is typing...",
+    "status_connected": "Connected",
+    "status_connecting": "Connecting...",
+    "status_disconnected": "Disconnected",
+    "status_error": "Connection Error",
+    "status_idle": "Idle"
+  },
+  "common": {
+    "back": "Back",
+    "home": "Home",
+    "profile": "Profile",
+    "tryAgain": "Try again",
+    "loading": "Loading...",
+    "error": "Error",
+    "toggle_theme": "Toggle theme",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "theme_system": "System"
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "description": "There was an error loading this page. You can try reloading the page or go back to the home page.",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "language": {
+    "ru": "Russian",
+    "en": "English",
+    "switch": "Switch language"
+  }
+}
