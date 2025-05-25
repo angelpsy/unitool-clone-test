@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useAuth } from '@/features/auth/useAuth';
 import { useTheme } from 'next-themes';
 import { useLocale, useTranslations } from 'next-intl';
-import { Menu, LogIn, MessageSquare, User, Sun, Moon, LogOut } from 'lucide-react';
+import { Menu, LogIn, MessageSquare, User, Sun, Moon, LogOut, Images } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import {
   Sidebar,
@@ -94,6 +94,15 @@ export function UserMenuMobile() {
                       <Link href="/chat" className="flex items-center text-white">
                         <MessageSquare className="mr-2 h-5 w-5" />
                         <span>{tChat('title')}</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                  
+                  <SidebarMenuItem>
+                    <SidebarMenuButton asChild>
+                      <Link href="/explore" className="flex items-center text-white">
+                        <Images className="mr-2 h-5 w-5" />
+                        <span>{tCommon('explore')}</span>
                       </Link>
                     </SidebarMenuButton>
                   </SidebarMenuItem>

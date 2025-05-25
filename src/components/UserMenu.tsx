@@ -54,6 +54,9 @@ export function UserMenu() {
         <DropdownMenuItem asChild className="hover:bg-neutral-700 focus:bg-neutral-700 cursor-pointer text-neutral-200 focus:text-white">
           <Link href="/chat">{tChat('title')}</Link>
         </DropdownMenuItem>
+        <DropdownMenuItem asChild className="hover:bg-neutral-700 focus:bg-neutral-700 cursor-pointer text-neutral-200 focus:text-white">
+          <Link href="/explore">{tCommon('explore')}</Link>
+        </DropdownMenuItem>
         <DropdownMenuItem
           onClick={handleLogout}
           disabled={isLoggingOut}
